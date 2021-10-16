@@ -1,6 +1,6 @@
 # The Odin Project: Landing Page
 
-The purpose of this project is to create a web page with a given design. The main skill practiced here is CSS and Flexbox.
+The purpose of this project is to create a web page with a given design. The main skills practiced here are CSS and Flexbox.
 
 Future work on this project may include creating a responsive web page and creating actual links to other web pages. 
 
