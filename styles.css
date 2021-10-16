@@ -81,7 +81,7 @@ button {
   font-weight: bolder;
   color: #1F2937;
   text-align: center;
-  padding: 36px 0;
+  padding: 48px 0;
 }
 
 .info {
@@ -102,5 +102,32 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 48px;
+  gap: 34px;
+  padding-bottom: 84px;
+  margin: 0 160px;
+}
+
+.quote {
+  height: 260px;
+  background-color: #E5E7EB;
+  color: #1F2937;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 300;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 24px;
+  padding-top: 60px;
+  
+}
+
+.quote p {
+  margin: 0;
+}
+
+.quote .name {
+  align-self: flex-end;
+  margin-right: 160px;
 }
