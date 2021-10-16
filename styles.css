@@ -1,5 +1,8 @@
 body {
   font-family: Helvetica, Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
 }
 
 header {
@@ -102,7 +105,7 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 34px;
+  gap: 48px;
   padding-bottom: 84px;
   margin: 0 160px;
 }
@@ -130,4 +133,37 @@ button {
 .quote .name {
   align-self: flex-end;
   margin-right: 160px;
+}
+
+.call-to-action-container {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.blue-container {
+  display: flex;
+  background-color: #3882F6;
+  color: #E5E7EB;
+  gap: 180px;
+  padding: 50px 120px;
+  border-radius: 8px;
+}
+
+.button2 {
+  color: #F9FAF8;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 10px 16px;
+  border-radius: 12px;
+  border: 2px solid #E5E7EB;
+}
+
+span {
+  font-size: 22px;
+  font-weight: 900;
+  color: white;
+  
 }
