@@ -10,14 +10,23 @@ header {
   color: #F9FAF8;
   height: 48px;
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
 
 .logo {
   font-size: 24px;
   font-weight: 800;
-  margin-left: 160px;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.rightside {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  
 }
 
 .nav-links {
@@ -25,22 +34,25 @@ header {
   list-style: none;
   font-size: 18px;
   color: #E5E7EB;
-  margin: 0 160px 0 0;
+  margin: 0;
   padding: 0;
   gap: 36px;
+  
 }
 
 .hero-container {
   display: flex;
   background-color:#1F2937;
- 
+  justify-content: center;
+  align-items: center;
   padding: 96px 0;
+  gap: 30px;
 }
 
 .pitch {
-  margin-left: 160px;
   flex: 1;
   display: flex;
+  max-width: 500px;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
@@ -57,12 +69,6 @@ header {
   font-size: 18px;
   color: #E5E7EB;
   margin: 8px 0 20px 0;
-}
-
-.reportcard-container {
-  margin-right: 160px;
-  flex: 1;
-  text-align: right;
 }
 
 .student {

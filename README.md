@@ -1,5 +1,9 @@
 # The Odin Project: Landing Page
 
+The purpose of this project is to create a web page with a given design. The main skill practiced here is CSS and Flexbox.
+
+Future work on this project may include creating a responsive web page and creating actual links to other web pages. 
+
 ## Credits
 
 Photo by <a href="https://unsplash.com/@seankkkkkkkkkkkkkk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">sean Kong</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
