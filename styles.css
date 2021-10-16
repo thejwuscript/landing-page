@@ -175,7 +175,7 @@ span {
   
 }
 
-footer {
+.footer {
   background-color: #1F2937;
   color: white;
   height: 72px;
@@ -187,5 +187,5 @@ footer {
 .push-footer {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  
 }
