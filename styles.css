@@ -146,7 +146,7 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
-  
+  flex: 1;
 }
 
 .blue-container {
@@ -156,6 +156,7 @@ button {
   gap: 180px;
   padding: 50px 120px;
   border-radius: 8px;
+  margin: 72px 0;
 }
 
 .button2 {
@@ -180,5 +181,11 @@ footer {
   height: 72px;
   display: flex;
   justify-content: center;
+  align-items: center;
+}
+
+.push-footer {
+  display: flex;
+  flex-direction: column;
   align-items: center;
 }
